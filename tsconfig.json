@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es2021",
+		"lib": ["es2021"],
+		"module": "NodeNext",
+		"types": [
+			"@cloudflare/workers-types/2023-07-01"
+		],
+		"moduleResolution": "nodenext",
+		"strict": true,
+	}
+}

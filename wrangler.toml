@@ -1,0 +1,10 @@
+name = "cf-email-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-04-05"
+send_email = [
+    {name = "EMAIL"}
+]
+[vars]
+SENDER_EMAIL = "cf-worker@example.com"
+SENDER_NAME = "cf-worker"
+SUBJECT_PREFIX = "Email Proxy:"
